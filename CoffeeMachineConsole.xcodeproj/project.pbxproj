@@ -13,6 +13,7 @@
 		F816E65625458D46004214D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F816E65425458D46004214D4 /* Main.storyboard */; };
 		F816E65825458D47004214D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F816E65725458D47004214D4 /* Assets.xcassets */; };
 		F816E65B25458D47004214D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F816E65925458D47004214D4 /* LaunchScreen.storyboard */; };
+		F816E66625458DFF004214D4 /* CoffeeMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F816E66525458DFF004214D4 /* CoffeeMachine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F816E65725458D47004214D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F816E65A25458D47004214D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F816E65C25458D47004214D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F816E66525458DFF004214D4 /* CoffeeMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMachine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				F816E64E25458D46004214D4 /* AppDelegate.swift */,
 				F816E65025458D46004214D4 /* SceneDelegate.swift */,
 				F816E65225458D46004214D4 /* ViewController.swift */,
+				F816E66525458DFF004214D4 /* CoffeeMachine.swift */,
 				F816E65425458D46004214D4 /* Main.storyboard */,
 				F816E65725458D47004214D4 /* Assets.xcassets */,
 				F816E65925458D47004214D4 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 				F816E65325458D46004214D4 /* ViewController.swift in Sources */,
 				F816E64F25458D46004214D4 /* AppDelegate.swift in Sources */,
 				F816E65125458D46004214D4 /* SceneDelegate.swift in Sources */,
+				F816E66625458DFF004214D4 /* CoffeeMachine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F34BP47W9U;
 				INFOPLIST_FILE = CoffeeMachineConsole/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +301,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yatsenko.CoffeeMachineConsole;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F34BP47W9U;
 				INFOPLIST_FILE = CoffeeMachineConsole/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +321,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yatsenko.CoffeeMachineConsole;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
